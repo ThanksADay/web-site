@@ -24,6 +24,15 @@ nav a:hover {
     background-color: #fae8d0;
     color: #5a4534;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.app-icon {
+    width: 200px; /* Vous pouvez ajuster cette valeur selon vos préférences */
+}
+
 
 h1, h2 {
     color: #c9a785;
