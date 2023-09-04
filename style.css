@@ -9,6 +9,9 @@ header {
     padding: 10px 0;
     text-align: center;
 }
+.main a {
+    color: #c9a785; /* couleur marron clair */
+}
 
 nav a {
     margin: 0 15px;
