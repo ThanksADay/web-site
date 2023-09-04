@@ -12,6 +12,10 @@ header {
 .main a {
     color: #c9a785; /* couleur marron clair */
 }
+.main a:visited {
+    color: #c9a785; /* Choisissez la couleur que vous souhaitez pour les liens visités */
+}
+
 
 nav a {
     margin: 0 15px;
