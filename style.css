@@ -100,3 +100,12 @@ footer {
   font-size: 0.8em;
   color: #fae8d0;
 }
+.blog-post {
+  border: 2px solid #c9a785;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.blog-post h3 {
+  cursor: pointer;
+}
