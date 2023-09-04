@@ -17,29 +17,13 @@
   </header>
   <main class="main">
     <h2>Recent Blog Posts</h2>
-    <div>
-      <h3 class="blog-title">The Science of Gratitude: How Daily Gratitude Journaling Affects Your Brain</h3>
-      <article class="blog-article">
-        <!-- Insérez le contenu de l'article ici -->
-      </article>
-    </div>
-    <!-- Ajoutez d'autres articles de blog ici dans un format similaire -->
+    <ul>
+      <li><a href="the-science-of-gratitude.html">The Science of Gratitude: How Daily Gratitude Journaling Affects Your Brain</a></li>
+      <!-- Ajoutez d'autres articles de blog ici -->
+    </ul>
   </main>
   <footer>
     <p>Copyright &copy; 2023 Thanks A Day. All rights reserved.</p>
   </footer>
-  <script>
-    // JavaScript pour l'expansion des articles de blog
-    document.addEventListener("DOMContentLoaded", function() {
-      const blogTitles = document.querySelectorAll('.blog-title');
-      
-      blogTitles.forEach(function(title) {
-        title.addEventListener('click', function() {
-          const article = title.nextElementSibling;
-          article.classList.toggle('expanded');
-        });
-      });
-    });
-  </script>
 </body>
 </html>
