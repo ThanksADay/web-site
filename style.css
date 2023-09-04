@@ -109,21 +109,21 @@ footer {
 .blog-post h3 {
   cursor: pointer;
 }
-.blog-article {
-  border: 2px solid #c9a785;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  padding: 10px;
-}
-
-.blog-title {
-  cursor: pointer;
-}
 
 .blog-content {
   display: none;
 }
+.blog-title {
+  cursor: pointer;
+}
 
-.blog-content.expanded {
+.blog-article {
+  display: none;
+  border: 1px solid #c9a785;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.blog-article.expanded {
   display: block;
 }
