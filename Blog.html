@@ -4,6 +4,19 @@
   <meta charset="UTF-8">
   <title>Blog - Thanks A Day</title>
   <link rel="stylesheet" href="style.css">
+  <script>
+    // JavaScript pour l'expansion des articles de blog
+    document.addEventListener("DOMContentLoaded", function() {
+      const blogTitles = document.querySelectorAll('.blog-title');
+      
+      blogTitles.forEach(function(title) {
+        title.addEventListener('click', function() {
+          const article = title.nextElementSibling;
+          article.classList.toggle('expanded');
+        });
+      });
+    });
+  </script>
 </head>
 <body>
   <header>
@@ -17,10 +30,13 @@
   </header>
   <main class="main">
     <h2>Recent Blog Posts</h2>
-    <ul>
-      <li><a href="the-science-of-gratitude.html">The Science of Gratitude: How Daily Gratitude Journaling Affects Your Brain</a></li>
-      <!-- Add other blog posts here -->
-    </ul>
+    <div class="blog-article">
+      <h3 class="blog-title">The Science of Gratitude: How Daily Gratitude Journaling Affects Your Brain</h3>
+      <div class="blog-content">
+        <!-- Mettez ici le contenu de votre article -->
+      </div>
+    </div>
+    <!-- Vous pouvez ajouter d'autres articles de blog ici de la même manière -->
   </main>
   <footer>
     <p>Copyright &copy; 2023 Thanks A Day. All rights reserved.</p>
